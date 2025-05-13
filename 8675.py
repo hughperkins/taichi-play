@@ -1,6 +1,6 @@
 import taichi as ti
-ti.init(arch=ti.cpu, offline_cache=False, advanced_optimization=False,
-        cpu_max_num_threads=1, debug=True, log_level=ti.DEBUG)
+ti.init(arch=ti.cpu, offline_cache=False, advanced_optimization=True,
+        cpu_max_num_threads=1, debug=True, log_level=ti.DEBUG, print_ir=True)
 
 
 @ti.dataclass
