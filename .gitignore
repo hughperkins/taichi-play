@@ -1,0 +1,4 @@
+*.pyc
+.vscode/
+imgui.ini
+out.txt
